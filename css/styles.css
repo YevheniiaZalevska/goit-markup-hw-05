@@ -600,6 +600,7 @@ button:focus {
     cursor: pointer;
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-close-button:hover {
@@ -721,6 +722,7 @@ button:focus {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    display: inline-flex;
 }
 
 .form-input-checkbox:checked+.checkbox-icon-box {
