@@ -298,11 +298,25 @@ button:focus {
 .section-titles-section-three {
     text-align: center;
     margin-bottom: 8px;
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
 }
 
 .section-items-section-three {
     text-align: center;
     margin-bottom: 8px;
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
 .social-media-section-three-main {
@@ -337,6 +351,18 @@ button:focus {
 
 .social-media-items-section-three-main {
     fill: #f4f4fd;
+}
+
+.section-main-h-two-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 /* section 4 */
@@ -411,7 +437,6 @@ button:focus {
 
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
-    line-height: 1.17;
     padding: 100px 0;
 }
 
@@ -451,7 +476,7 @@ button:focus {
     max-width: 264px;
 }
 
-.container.footer {
+.container.footer-container {
     display: flex;
     align-items: baseline;
 }
@@ -554,6 +579,11 @@ button:focus {
 
 .svg-form-footer {
     margin-left: 16px;
+    fill: #FFFFFF;
+}
+
+.form-footer-container {
+    margin-left: auto;
 }
 
 /* Modal-window */
@@ -566,6 +596,7 @@ button:focus {
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: none;
 }
 
 .modal {
